@@ -1,0 +1,113 @@
+condition,target_text,typed_text,char_error_rate,IKI,WPM,num_backspaces,gaze_kbd_ratio,gaze_shift,chord_attempts,chords_fired,fire_rate,chord_coverage
+uniform-easy,sorry about that,sorry about that,0.0,273.9130434782609,43.373493975903614,3,0.9156626506024096,1,0,0,0.0,0.0
+uniform-easy,they are more efficiently pooled,they are more efficirntly pooled,0.03125,257.6923076923077,59.04761904761905,3,0.8015873015873016,2,2,1,0.5,0.1875
+uniform-easy,we are all fragile,we are all fragile,0.0,266.6666666666667,55.89041095890411,2,0.9863013698630136,0,1,1,1.0,0.16666666666666666
+uniform-easy,we are on the way,we are on the way,0.0,271.875,66.20689655172414,0,0.9827586206896551,0,1,1,1.0,0.17647058823529413
+uniform-easy,do we need to discuss,do we need to discuss,0.0,272.0,53.93258426966292,1,0.8764044943820225,1,0,0,0.0,0.0
+uniform-easy,i agreed terms with greg,i agreed terms with greg,0.0,282.14285714285717,52.571428571428584,3,0.9333333333333333,1,1,1,1.0,0.16666666666666666
+uniform-easy,i will get you one,i will get you one,0.0,286.95652173913044,45.842696629213485,2,0.9887640449438202,0,0,0,0.0,0.0
+uniform-easy,what is in the plan,what is in the plan,0.0,275.0,40.0,5,0.8796296296296297,1,1,0,0.0,0.15789473684210525
+uniform-easy,i will follow up with him,i will follow up with him,0.0,269.35483870967744,53.33333333333333,3,0.8796296296296297,1,1,1,1.0,0.16
+uniform-easy,not even close,not even close,0.0,266.6666666666667,58.86792452830189,0,0.9811320754716981,0,0,0,0.0,0.0
+uniform-easy,can you resend me the email,can you resend me the email,0.0,255.88235294117646,57.247706422018354,4,0.8807339449541285,1,1,1,1.0,0.1111111111111111
+uniform-easy,what is this,what is this,0.0,289.4736842105263,35.2,3,0.96,1,0,0,0.0,0.0
+uniform-easy,a gift isnt necessary,a gift isnt necessary,0.0,275.0,47.524752475247524,3,0.8712871287128713,1,0,0,0.0,0.0
+uniform-easy,i sent it to her,i sent it to her,0.0,275.0,61.016949152542374,0,0.9830508474576272,0,1,1,1.0,0.1875
+uniform-easy,i will be back friday,i will be back fridz,0.095238097012043,266.0,53.02325581395348,2,0.9767441860465116,1,0,0,0.0,0.0
+uniform-easy,i can return earlier,i can return earlier,0.0,271.42857142857144,60.800000000000004,0,0.9866666666666667,0,0,0,0.0,0.0
+uniform-easy,i would like to attend if so,i would like to attend if so,0.0,279.1666666666667,49.09090909090909,3,0.9015151515151515,1,0,0,0.0,0.0
+uniform-easy,has anyone else heard anything,has anyone else heard anything,0.0,262.280701754386,37.02127659574468,13,0.9042553191489362,2,0,0,0.0,0.0
+uniform-easy,what is going on,what is going on,0.0,262.5,38.297872340425535,4,0.8617021276595744,1,0,0,0.0,0.0
+uniform-easy,we will keep you posted,we will keep you posted,0.0,277.4193548387097,46.72566371681416,3,0.9557522123893806,1,0,0,0.0,0.0
+uniform-easy,please revise accordingly,please revise accordingly,0.0,265.27777777777777,47.21311475409837,5,0.8934426229508197,1,0,0,0.0,0.0
+uniform-easy,can you help get this cleared up,can you help get this cleared up,0.0,269.2307692307692,33.36322869955157,15,0.8878923766816144,2,0,0,0.0,0.0
+uniform-easy,are you getting all the information,are you getting all the information,0.0,252.56410256410257,66.88524590163935,6,0.8934426229508197,1,4,4,1.0,0.37142857142857144
+uniform-easy,need to watch closely,need to watch closely,0.0,264.5833333333333,58.536585365853675,1,0.9878048780487805,0,0,0,0.0,0.0
+uniform-easy,is this the only time available,is this the only time available,0.0,271.42857142857144,48.9795918367347,6,0.9115646258503401,1,1,1,1.0,0.0967741935483871
+uniform-easy,we dont seem to have any positive income,we dont seem to have any positive income,0.0,268.6046511627907,63.24324324324324,3,0.9121621621621622,1,2,2,1.0,0.175
+uniform-easy,is it over,is it over,0.0,285.29411764705884,32.727272727272734,3,0.9848484848484849,0,0,0,0.0,0.0
+uniform-easy,not even in yet,not even in yet,0.0,272.5,46.66666666666667,2,0.9861111111111112,0,0,0,0.0,0.0
+uniform-medium,sorry about that,sorry about that,0.0,279.6296296296296,36.0,5,0.96,1,0,0,0.0,0.0
+uniform-medium,they are more efficiently pooled,they are more efficiently pooled,0.0,255.55555555555554,64.69565217391305,3,0.782608695652174,2,2,2,1.0,0.1875
+uniform-medium,we are all fragile,we are all fragile,0.0,284.0,42.94736842105263,4,0.9894736842105263,0,1,1,1.0,0.16666666666666666
+uniform-medium,we are on the way,we are on the way,0.0,265.625,68.57142857142858,0,0.9821428571428571,0,1,1,1.0,0.17647058823529413
+uniform-medium,do we need to discuss,do we need to discuss,0.0,281.48148148148147,47.524752475247524,2,0.8712871287128713,1,0,0,0.0,0.0
+uniform-medium,i agreed terms with greg,i agreed terms with greg,0.0,261.53846153846155,63.44827586206897,2,0.8505747126436781,1,1,1,1.0,0.16666666666666666
+uniform-medium,i will get you one,i will get you one,0.0,289.4736842105263,54.400000000000006,0,0.9866666666666667,0,0,0,0.0,0.0
+uniform-medium,what is in the plan,what is in the plan,0.0,300.0,47.472527472527474,2,0.989010989010989,0,1,1,1.0,0.15789473684210525
+uniform-medium,i will follow up with him,i will follow up with him,0.0,268.9655172413793,57.02970297029702,3,0.8712871287128713,1,1,1,1.0,0.16
+uniform-medium,not even close,not even close,0.0,265.90909090909093,41.05263157894737,3,0.9868421052631579,0,0,0,0.0,0.0
+uniform-medium,can you resend me the email,can you resend me the email,0.0,251.38888888888889,55.71428571428572,4,0.8839285714285714,1,1,1,1.0,0.1111111111111111
+uniform-medium,what is this,what is this,0.0,272.0,29.662921348314605,6,0.8539325842696629,1,0,0,0.0,0.0
+uniform-medium,a gift isnt necessary,a gift isnt necessary,0.0,253.2258064516129,48.9795918367347,4,0.8673469387755102,1,0,0,0.0,0.0
+uniform-medium,i sent it to her,i sent it to her,0.0,268.75,42.85714285714286,4,0.8571428571428571,1,1,1,1.0,0.1875
+uniform-medium,i will be back friday,i will be back friday,0.0,266.6666666666667,46.601941747572816,3,0.8737864077669902,1,0,0,0.0,0.0
+uniform-medium,i can return earlier,i can return earlier,0.0,267.39130434782606,57.0,1,0.975,1,0,0,0.0,0.0
+uniform-medium,i would like to attend if so,i would like to attend if so,0.0,275.64102564102564,46.28571428571429,5,0.9071428571428571,1,0,0,0.0,0.0
+uniform-medium,has anyone else heard anything,has anyone else heard anything,0.0,263.82978723404256,44.3312101910828,8,0.9171974522292994,1,0,0,0.0,0.0
+uniform-medium,what is going on,what is going on,0.0,266.6666666666667,38.70967741935484,5,0.8602150537634409,1,0,0,0.0,0.0
+uniform-medium,we will keep you posted,we will keep you posted,0.0,267.2413793103448,52.800000000000004,2,0.87,1,0,0,0.0,0.0
+uniform-medium,please revise accordingly,please revise accordingly,0.0,265.0,56.47058823529412,2,0.8725490196078431,1,0,0,0.0,0.0
+uniform-medium,can you help get this cleared up,can you help get this cleared u,0.03125,274.48979591836735,41.37931034482759,8,0.9252873563218391,1,0,0,0.0,0.0
+uniform-medium,are you getting all the information,are you getting all the infilmation,0.05714285746216774,251.1904761904762,62.769230769230774,7,0.9,1,4,3,0.75,0.37142857142857144
+uniform-medium,need to watch closely,need to watch closely,0.0,264.0625,44.44444444444444,5,0.8796296296296297,1,0,0,0.0,0.0
+uniform-medium,is this the only time available,is this the obly time avaolable,0.06451612710952759,278.0701754385965,34.95145631067961,13,0.8786407766990292,2,1,1,1.0,0.0967741935483871
+uniform-medium,we dont seem to have any positive income,we dont seem to have any positive incomwle,0.05000000074505806,272.09302325581393,65.1655629139073,2,0.9139072847682119,1,2,2,1.0,0.175
+uniform-medium,is it over,is it over,0.0,266.6666666666667,40.75471698113208,2,0.9811320754716981,0,0,0,0.0,0.0
+uniform-medium,not even in yet,not even in yet,0.0,270.0,47.32394366197184,2,0.9859154929577465,0,0,0,0.0,0.0
+graduated,sorry about that,sorry about that,0.0,280.95238095238096,45.56962025316456,2,0.9873417721518988,0,0,0,0.0,0.0
+graduated,they are more efficiently pooled,they are more efficiently pooled,0.0,249.0566037735849,46.2111801242236,12,0.84472049689441,2,2,2,1.0,0.1875
+graduated,we are all fragile,we are all fragile,0.0,266.6666666666667,55.89041095890411,2,0.9863013698630136,0,1,1,1.0,0.16666666666666666
+graduated,we are on the way,we are on the way,0.0,283.3333333333333,42.1978021978022,4,0.945054945054945,1,1,1,1.0,0.17647058823529413
+graduated,do we need to discuss,do we need to discuss,0.0,273.0769230769231,51.612903225806456,1,0.9247311827956989,1,0,0,0.0,0.0
+graduated,i agreed terms with greg,i agreed terms with greg,0.0,268.3333333333333,53.07692307692309,4,0.875,1,1,1,1.0,0.16666666666666666
+graduated,i will get you one,i will get you one,0.0,300.0,42.94736842105263,2,0.9263157894736842,1,0,0,0.0,0.0
+graduated,what is in the plan,what is in the pla,0.05263157933950424,266.0,47.441860465116285,4,0.8488372093023255,1,1,1,1.0,0.15789473684210525
+graduated,i will follow up with him,i will follow up with him,0.0,269.35483870967744,53.33333333333333,3,0.8796296296296297,1,1,1,1.0,0.16
+graduated,not even close,not even close,0.0,266.6666666666667,58.86792452830189,0,0.9811320754716981,0,0,0,0.0,0.0
+graduated,can you resend me the email,can you resend me the email,0.0,260.63829787234044,40.51948051948052,10,0.9155844155844156,1,1,1,1.0,0.1111111111111111
+graduated,what is this,what is this,0.0,282.3529411764706,40.61538461538461,2,0.9846153846153847,0,0,0,0.0,0.0
+graduated,a gift isnt necessary,a gift isnt necessary,0.0,253.125,47.524752475247524,5,0.8712871287128713,1,0,0,0.0,0.0
+graduated,i sent it to her,i sent it to her,0.0,294.7368421052632,46.753246753246756,2,0.935064935064935,1,1,1,1.0,0.1875
+graduated,i will be back friday,i will be back friday,0.0,270.0,39.34426229508197,6,0.8934426229508197,1,0,0,0.0,0.0
+graduated,i can return earlier,i can return earlier,0.0,270.45454545454544,58.46153846153847,0,0.9743589743589743,1,0,0,0.0,0.0
+graduated,i would like to attend if so,i would like to attend if so,0.0,277.63157894736844,46.95652173913044,4,0.9057971014492754,1,0,0,0.0,0.0
+graduated,has anyone else heard anything,has anyone else heard anything,0.0,265.1162790697674,48.0,6,0.9103448275862069,1,0,0,0.0,0.0
+graduated,what is going on,what is going o m,0.125,282.60869565217394,44.13793103448276,2,0.8505747126436781,1,0,0,0.0,0.0
+graduated,we will keep you posted,we will keep you posted,0.0,282.6923076923077,53.87755102040816,1,0.9795918367346939,1,0,0,0.0,0.0
+graduated,please revise accordingly,please revise accordingly,0.0,267.1875,52.36363636363637,2,0.9818181818181818,1,0,0,0.0,0.0
+graduated,can you help get this cleared up,can you help get this cleared up,0.0,267.0,43.76470588235294,8,0.9235294117647059,1,0,0,0.0,0.0
+graduated,are you getting all the information,are you getting sll the information,0.02857142873108387,253.33333333333334,85.89473684210526,1,0.9894736842105263,0,4,3,0.75,0.37142857142857144
+graduated,need to watch closely,need to watch closely,0.0,262.962962962963,52.74725274725276,2,0.9230769230769231,1,0,0,0.0,0.0
+graduated,is this the only time available,is this the only time available,0.0,265.1162790697674,49.65517241379311,6,0.9103448275862069,1,1,1,1.0,0.0967741935483871
+graduated,we dont seem to have any positive income,we dont seem to have any positive income,0.0,277.0,52.0,6,0.9277777777777778,1,2,2,1.0,0.175
+graduated,is it over,is it over,0.0,289.2857142857143,38.57142857142858,1,0.9821428571428571,0,0,0,0.0,0.0
+graduated,not even in yet,not even in yet,0.0,265.0,48.69565217391304,2,0.9855072463768116,0,0,0,0.0,0.0
+uniform-hard,sorry about that,sorry about that,0.0,271.42857142857144,48.0,2,0.96,1,0,0,0.0,0.0
+uniform-hard,they are more efficiently pooled,they are more efficiently pooled,0.0,257.57575757575756,69.53271028037385,2,0.7850467289719626,2,2,2,1.0,0.1875
+uniform-hard,we are all fragile,we are all fragile,0.0,280.0,43.87096774193549,4,0.989247311827957,0,1,1,1.0,0.16666666666666666
+uniform-hard,we are on the way,we are on the way,0.0,266.6666666666667,60.952380952380956,1,0.9841269841269841,0,1,1,1.0,0.17647058823529413
+uniform-hard,do we need to discuss,do we need to discuss,0.0,275.0,60.0,0,0.95,1,0,0,0.0,0.0
+uniform-hard,i agreed terms with greg,i agreed terms with greg,0.0,262.1212121212121,50.18181818181819,5,0.8818181818181818,1,1,1,1.0,0.16666666666666666
+uniform-hard,i will get you one,i will get you one,0.0,292.85714285714283,48.57142857142857,1,0.9880952380952381,0,0,0,0.0,0.0
+uniform-hard,what is in the plan,what is in the plan,0.0,273.0769230769231,46.45161290322581,4,0.946236559139785,1,1,1,1.0,0.15789473684210525
+uniform-hard,i will follow up with him,i will follow up with him,0.0,272.72727272727275,49.23076923076924,3,0.8888888888888888,1,1,0,0.0,0.16
+uniform-hard,not even close,not even close,0.0,266.6666666666667,42.73972602739727,3,0.9863013698630136,0,0,0,0.0,0.0
+uniform-hard,can you resend me the email,can you resend me the email,0.0,251.1904761904762,48.0,7,0.9,1,1,1,1.0,0.1111111111111111
+uniform-hard,what is this,what is this,0.0,297.36842105263156,33.846153846153854,3,0.9230769230769231,1,0,0,0.0,0.0
+uniform-hard,a gift isnt necessary,a gift isnt necessary,0.0,283.3333333333333,42.477876106194685,4,0.9734513274336283,1,0,0,0.0,0.0
+uniform-hard,i sent it to her,i sent it to her,0.0,270.8333333333333,42.35294117647059,3,0.8705882352941177,1,1,1,1.0,0.1875
+uniform-hard,i will be back friday,i will be back friday,0.0,268.3333333333333,46.15384615384615,4,0.9903846153846154,0,0,0,0.0,0.0
+uniform-hard,i can return earlier,i can return earlu,0.15000000596046448,277.0833333333333,46.36363636363637,2,0.8636363636363636,1,0,0,0.0,0.0
+uniform-hard,i would like to attend if so,i would like to attend if so,0.0,272.85714285714283,52.258064516129025,3,0.8951612903225806,1,0,0,0.0,0.0
+uniform-hard,has anyone else heard anything,has anyone else heard anything,0.0,263.6363636363636,47.34693877551021,6,0.9115646258503401,1,0,0,0.0,0.0
+uniform-hard,what is going on,what is going on,0.0,285.7142857142857,44.44444444444445,2,0.9382716049382716,1,0,0,0.0,0.0
+uniform-hard,we will keep you posted,we will keep you posted,0.0,271.6216216216216,40.61538461538461,6,0.9,1,0,0,0.0,0.0
+uniform-hard,please revise accordingly,please revise accordingly,0.0,265.7894736842105,44.651162790697676,5,0.8992248062015504,1,0,0,0.0,0.0
+uniform-hard,can you help get this cleared up,can you help get this cleared up,0.0,268.1818181818182,39.57446808510638,10,0.8670212765957447,2,0,0,0.0,0.0
+uniform-hard,are you getting all the information,are you getting all the informatiobl,0.05714285746216774,253.125,83.16831683168317,2,0.8712871287128713,1,4,4,1.0,0.37142857142857144
+uniform-hard,need to watch closely,need to watch closely,0.0,262.5,59.25925925925927,1,0.9876543209876543,0,0,0,0.0,0.0
+uniform-hard,is this the only time available,is this the only time avau,0.19354838132858276,260.4166666666667,38.21656050955414,11,0.9171974522292994,1,1,1,1.0,0.0967741935483871
+uniform-hard,we dont seem to have any positive income,we dont seem to have any positive income,0.0,264.2857142857143,66.38297872340426,3,0.9078014184397163,1,2,2,1.0,0.175
+uniform-hard,is it over,is it over,0.0,273.0769230769231,45.0,1,0.9791666666666666,0,0,0,0.0,0.0
+uniform-hard,not even in yet,not even in yet,0.0,263.46153846153845,38.18181818181818,5,0.9545454545454546,1,0,0,0.0,0.0

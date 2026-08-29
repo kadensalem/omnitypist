@@ -1,0 +1,679 @@
+%%
+%% This is file `sample-sigconf-authordraft.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,proceedings,bibtex,authordraft')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf-authordraft.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[sigconf,review,anonymous]{acmart}
+
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{subfig}
+\usepackage{graphicx}
+\graphicspath{{./figures/},{./figures/plots/}}
+\usepackage{rotating}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{diagbox}
+\usepackage{tablefootnote}
+\usepackage{multirow}
+%\usepackage[export]{adjustbox}
+
+\usepackage{dcolumn}
+\sloppy
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+
+\usepackage{bbm, bbold}
+
+%\usepackage[bottom]{footmisc}
+
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage[ruled,vlined,linesnumbered,algo2e]{algorithm2e}
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*}
+
+%% Some custom macros.
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{1pt}
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{\sectionautorefname}
+\renewcommand{\subsubsectionautorefname}{\sectionautorefname}
+\newcommand{\subfigureautorefname}{Figure\@}
+\newcommand{\todo}[1]{\textcolor{black}{TODO: #1}}
+\newcommand\REVISION[1]{\textcolor{black}{#1}}
+ \newenvironment{revision}{\par\color{black}}{\par}
+\newcommand\ADD[1]{\textcolor{black}{#1}}
+\newcommand\Yue[1]{\textcolor{black}{#1}}
+
+\newenvironment{yue}{\par\color{black}}{\par}
+\newenvironment{add}{\par\color{black}}{\par}
+\newcommand\Hamed[1]{\textcolor{black}{#1}}
+\newcommand\UIST[1]{\textcolor{black}{#1}}
+\newenvironment{uist}{\par\color{black}}{\par}
+
+\newcommand{\loss}{\mathcal{L}}
+\newcommand{\image}{\mathcal{I}}
+\newcommand{\encoder}{\mathcal{E}}
+\newcommand{\decoder}{\mathcal{D}}
+\newcommand{\normal}{\mathcal{N}}
+
+\newcommand{\systemname}{\textsc{EyeFormer}\xspace}
+
+
+\usepackage{tikz}
+\newcommand{\blackcircle}[1]{%
+  \tikz[baseline=(char.base)]\node[shape=circle,draw,fill=black,inner sep=0.5pt] (char) {\scriptsize\textcolor{white}{#1}};}
+
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+
+
+
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+% \setcopyright{acmlicensed}
+% \copyrightyear{2018}
+% \acmYear{2018}
+% \acmDOI{XXXXXXX.XXXXXXX}
+% %% These commands are for a PROCEEDINGS abstract or paper.
+% \acmConference[Conference acronym 'XX]{Make sure to enter the correct
+%   conference title from your rights confirmation email}{June 03--05,
+%   2018}{Woodstock, NY}
+%%
+%%  Uncomment \acmBooktitle if the title of the proceedings is different
+%%  from ``Proceedings of ...''!
+%%
+%%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%%  June 03--05, 2018, Woodstock, NY}
+% \acmISBN{978-1-4503-XXXX-X/2018/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title[]{OmniTypist: Simulating Gaze and Gesture Across Multiple Text Entry Strategies on Touchscreens}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Kaden Salem}
+\email{kaden.salem@utah.edu}
+\orcid{}
+\affiliation{%
+  \institution{University of Utah}
+  \country{United States}
+}
+
+
+\author{Yue Jiang}
+\email{yue.jiang@utah.edu}
+\orcid{0000-0003-0022-6512}
+\affiliation{%
+  \institution{University of Utah}
+  \country{United States}
+}
+
+
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+Simulating human text entry on touchscreens remains a challenge, as existing models are largely restricted to sequential, single-finger tapping. This fails to account for modern strategies such as bimanual typing, word-level swiping, and chorded input. We propose OmniTypist, a pixel-based simulation framework capable of simulating human-like gesture and gaze behaviors across diverse typing strategies.
+OmniTypist simulates realistic unimanual and bimanual motor coordination and continuous gesture and gaze modeling directly from screen pixels. To address the cognitive complexities of non-sequential input, we introduce ChordMemory, a probabilistic model that quantifies the recall strength and temporal decay of chord vocabularies. This allows the framework to dynamically navigate the trade-off between the high-performance gains of chording and the cognitive load of learning new mappings.
+The model enables the simulation of multiple typing strategies, including tapping, swiping, and chording, on any given keyboard layout. We demonstrate that OmniTypist not only matches human performance metrics but also serves as a generative tool for identifying optimal chording vocabularies that maximize speed within human memory bounds. We provide an open-source model and a new benchmark to enable the evaluation of text-entry interface usability without the need for exhaustive user testing.
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+% \begin{CCSXML}
+% <ccs2012>
+% %<concept>
+% %<concept_id>10003120.10003121</concept_id>
+% %<concept_desc>Human-centered computing~Human computer interaction (HCI)</concept_desc>
+% %<concept_significance>500</concept_significance>
+% %</concept>
+% <concept>
+% <concept_id>10003120.10003138.10011767</concept_id>
+% <concept_desc>Human-centered computing~Empirical studies in ubiquitous and mobile computing</concept_desc>
+% <concept_significance>500</concept_significance>
+% </concept>
+% <concept>
+% <concept_id>10010147.10010178.10010224</concept_id>
+% <concept_desc>Computing methodologies~Computer vision</concept_desc>
+% <concept_significance>300</concept_significance>
+% </concept>
+% %<concept>
+% %<concept_id>10003120.10003121.10003122.10003334</concept_id>
+% %<concept_desc>Human-centered computing~User studies</concept_desc>
+% %<concept_significance>100</concept_significance>
+% %</concept>
+% </ccs2012>
+% \end{CCSXML}
+
+%\ccsdesc[500]{Human-centered computing~Human computer interaction (HCI)}
+% \ccsdesc[500]{Human-centered computing~Empirical studies in ubiquitous and mobile computing}
+% \ccsdesc[300]{Computing methodologies~Computer vision}
+  
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{}
+  
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+\begin{teaserfigure}
+  \def\w{\linewidth}
+  \centering
+ % \includegraphics[width=\w]{source/figures/teaser.pdf}
+ % \caption{
+ % }
+  %\Description{}
+  \label{fig:teaser}
+\end{teaserfigure}
+
+
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+
+\input{01-Introduction}
+\input{02-Related-Work}
+\input{03-Method}
+3.1 Bimanual Two-Thumb Typing
+The base CRTypist model employs a single finger agent that plans movements for one thumb. To support bimanual typing, we extend the environment to instantiate two independent finger agents: one for the left thumb and one for the right—loaded from the same pre-trained checkpoint. Sharing weights reflects the empirical observation that the motor programs of left and right thumbs are structurally similar and can be modeled by a single policy; what differs between thumbs is only the starting position and the target assignment.
+
+At the beginning of each episode, the left thumb is initialized at pixel coordinate $(64, 454)$ and the right thumb at $(192, 454)$, placing each thumb over its natural half of the keyboard. Both thumbs maintain independent positions, in-action flags, and movement timers.
+
+Finger assignment. Rather than using a fixed hand to key mapping (e.g., left thumb always presses left side keys), we adopt the flexible assignment strategy described in Section 5.1.2 of the CRTypist paper: the thumb whose current position is closer (in Euclidean distance) to the target key's center is assigned to press it. This is subject to a no crossing constraint that prevents assignments which would require a thumb to cross over the other. Concretely, the left thumb may only be assigned a key whose x coordinate does not exceed the right thumb's current x position, and symmetrically for the right thumb. If the closer thumb would violate this constraint, the farther thumb is assigned instead.
+
+Sequential movement. In sequential two thumb mode, only one thumb moves at a time. Given a target key, assignFinger selects the appropriate thumb, the corresponding finger agent predicts the next step position, movement time is computed from distance and speed, and the motor noise model is applied on arrival. The non active thumb remains stationary. This constraint matches the single-goal supervisor architecture: the supervisor issues one movement command per decision step, and the environment routes it to whichever thumb is assigned.
+
+Chord movement. When the supervisor elects to execute a chord, the two keys in the chord pair are assigned to thumbs by x position: the key with the smaller x coordinate is assigned to the left thumb, the key with the larger x coordinate to the right. Both finger agents predict their respective next positions simultaneously, and both movement timers begin counting down independently. A chord is considered temporally successful if the two movement times fall within a simultaneity window of 100 ms, a threshold chosen to lie well below the typical inter-key interval of 200–350 ms in sequential typing. Motor noise is applied independently to each thumb on arrival; a chord is spatially successful only if both thumbs land on their intended keys. A successful chord appends the full vocabulary word to the typed text in a single event; a failed chord falls back to registering the individual landed characters.
+
+\subsection{Gaze and Visual Encoding}
+\label{sec:gaze}
+
+The gaze system is inherited directly from CRTypist~\cite{crtypist} and operates unchanged across all three typing modes. At each 50\,ms timestep, the supervisor issues a binary vision action ($a_0 \in \{0, 1\}$): guide gaze to the next key target (0), or shift gaze to the input field for proofreading (1). The gaze agent then executes this goal over a duration determined by the EMMA cognitive model~\cite{kieras1997epic}.
+
+\paragraph{Visual encoding.}
+The environment maintains two pixel-based visual streams. A \emph{foveal encoder} processes a $64 \times 64$ pixel crop centred on the current gaze position, capturing high-resolution key detail in the attended region. A \emph{peripheral encoder} processes the full $256 \times 455$ screenshot resized to $64 \times 64$, providing a low-resolution global context. Both encoders are convolutional networks (VisionEncoder) whose weights are fixed after training. Their compressed embeddings, together with the normalised gaze coordinates and an integer index for the vision goal, form the observation consumed by the gaze agent.
+
+\paragraph{Gaze agent.}
+The gaze agent is a PPO policy trained to move the gaze point toward a target place on the keyboard or the input box. At each rollout step it receives the foveal embedding, peripheral embedding, normalised gaze position $(x/W,\, y/H)$, and the target place index, and outputs a new pixel coordinate for the gaze. Gaussian noise $\mathcal{N}(0, 5)$ is added independently to each axis on arrival, reflecting oculomotor variability.
+
+\paragraph{Fixation time.}
+The duration of a gaze movement is modelled using the EMMA encoding-time formula:
+\begin{equation}
+  t_{\mathrm{fix}} = K \cdot (-\log f) \cdot e^{k \cdot d} \cdot 1000 + t_{\mathrm{sacc}},
+  \label{eq:fixation}
+\end{equation}
+where $f = 1/|\mathcal{P}|$ is the uniform frequency over all keyboard places $\mathcal{P}$, $d = 2$\,deg is the foveal eccentricity, $k = 0.4$, and $t_{\mathrm{sacc}} = 200$\,ms is the saccade preparation latency. The scaling constant $K = 0.05 \cdot \nu$, where $\nu$ is the fitted vision parameter ($\nu = 0.866$), controls how quickly the typist encodes each new key location. Lower $\nu$ produces faster gaze movements; higher $\nu$ produces slower, more deliberate fixations.
+
+\paragraph{Gaze-guided motor noise.}
+Gaze directly modulates finger landing accuracy. When the gaze is aligned with the finger target, motor error is drawn from a distance-scaled noise model parameterised by the finger parameter $\phi$. When the gaze has moved away from the finger target, an additional time-dependent noise term $\sigma_{\mathrm{blind}} = t_{\mathrm{blind}} \cdot 10$\,px/s (where $t_{\mathrm{blind}}$ is the time in seconds since gaze last guided the finger) is added to the standard deviation. This coupling means that the supervisor must balance gaze allocation between visual guidance of finger movements and proofreading of typed text—a core tension that the supervisor policy learns to resolve.
+
+\subsection{Chord Vocabulary and Procedural Memory}
+\label{sec:chord_memory}
+
+The chord vocabulary consists of 10 two-key chords selected to cover
+high-frequency English morphemes.  Each chord maps a sorted pair of
+simultaneously-pressed keys—one from the left half of the QWERTY layout
+and one from the right—to an expansion string of three or more characters
+(Table~\ref{tab:chord_vocab}).  The left/right split ensures that the two
+thumbs are always assigned to opposite keys, preventing motor conflicts
+with the no-crossing constraint described in
+Section~\ref{sec:two_thumb_typing}.
+
+\begin{table}[h]
+\centering
+\caption{Chord vocabulary.  Keys are sorted tuples (left key, right key).
+Difficulty $d \in [0,1]$ controls per-chord memory decay rate.}
+\label{tab:chord_vocab}
+\begin{tabular}{lllr}
+\toprule
+Keys & Expansion & Mnemonic & Difficulty \\
+\midrule
+(h, t) & the  & th $\to$ the  & 0.1 \\
+(a, n) & and  & an $\to$ and  & 0.1 \\
+(f, o) & for  & fo $\to$ for  & 0.3 \\
+(i, w) & with & wi $\to$ with & 0.3 \\
+(b, u) & but  & bu $\to$ but  & 0.4 \\
+(a, l) & all  & al $\to$ all  & 0.4 \\
+(c, o) & com  & co $\to$ com  & 0.6 \\
+(i, t) & tion & ti $\to$ tion & 0.6 \\
+(e, n) & ent  & en $\to$ ent  & 0.7 \\
+(h, v) & have & hv $\to$ have & 0.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+We model the typist's ability to recall each chord as a continuously-valued
+\emph{recall strength} $s \in [0,1]$, following the same exponential decay
+framework used for working memory in the base CRTypist model~\cite{crtypist}.
+At the start of each episode all chords are fully known ($s = 1$).  Between
+proofreading fixations, the recall strength of every chord decays according
+to
+
+\begin{equation}
+  s(t + \Delta t) = s(t)\,\exp\!\bigl(-K\,\Delta t\bigr),
+  \qquad K = \lambda \cdot 0.3 \cdot (1 + d),
+  \label{eq:chord_decay}
+\end{equation}
+
+\noindent where $\Delta t$ is the elapsed time in seconds since the last
+proofreading event, $\lambda$ is the fitted working-memory decay parameter
+shared with the base model, and $d$ is the chord-specific difficulty score.
+Harder chords—those with less obvious key-to-expansion mappings—are
+assigned higher $d$ and therefore decay faster.  A successful chord
+execution increases recall strength by a fixed reinforcement amount
+$\delta = 0.2$, capped at 1.0, reflecting practice effects.
+
+The recall strength of the currently available chord (or 0 if no chord
+applies) is passed directly to the supervisor as a continuous scalar
+observation.  Probabilistic gating is left to the supervisor's policy
+rather than hard-thresholded, allowing it to learn context-sensitive
+risk tolerance.
+
+\subsection{Supervisor Agent}
+\label{sec:supervisor}
+
+The supervisor is a Proximal Policy Optimization (PPO) agent with a
+multi-layer perceptron (MLP) policy.  Its observation space encodes the
+cognitive and motor state at each 50\,ms timestep.  In chord mode the
+observation consists of nine named components, which are flattened to a
+16-dimensional vector by SB3's \texttt{MultiInputPolicy} after
+one-hot-encoding the discrete dimensions:
+
+\begin{itemize}
+  \item \textbf{P} (3 continuous): the three fitted perceptual-motor
+    parameters shared with the base model. % FIXED: removed invented Greek notation
+  \item \textbf{correctness} (1 continuous): working-memory correctness
+    signal from the Memory module.
+  \item \textbf{certainty} (1 continuous): working-memory certainty
+    (proportion of target text currently held in working memory).
+  \item \textbf{left\_finger\_in\_action} (Discrete 2 $\to$ 2 cols):
+    whether the left thumb is currently executing a movement.
+  \item \textbf{right\_finger\_in\_action} (Discrete 2 $\to$ 2 cols):
+    whether the right thumb is currently executing a movement.
+  \item \textbf{vision\_in\_action} (Discrete 2 $\to$ 2 cols): whether a
+    gaze movement is in progress.
+  \item \textbf{chord\_available} (Discrete 2 $\to$ 2 cols): 1 when a chord
+    expansion matches the start of the remaining target text, the last
+    physically-typed character is correct, and both fingers are idle.
+  \item \textbf{chord\_recall\_strength} (1 continuous): current recall
+    strength of the available chord, from \texttt{ChordMemory}.
+  \item \textbf{backspace\_ready} (Discrete 2 $\to$ 2 cols): 1 when the
+    most recently typed character is physically incorrect and both fingers
+    are idle, providing an unambiguous signal for error correction.
+\end{itemize}
+
+Both \texttt{chord\_available} and \texttt{backspace\_ready} are gated on
+the physical \texttt{typed\_text} rather than the working-memory recall
+text.  Working-memory correctness decays over time even on perfectly correct
+text, which would otherwise produce spurious chord or backspace signals when
+the typist has simply forgotten early characters but typed them correctly.
+
+The action space is $\text{MultiDiscrete}([2,\,3,\,10])$:
+\begin{itemize}
+  \item $a_0 \in \{0,1\}$: vision goal—guide gaze to the next key target (0)
+    or proofread the input field (1).
+  \item $a_1 \in \{0,1,2\}$: finger goal—type the next character (0),
+    delete the last character (1), or attempt a chord (2).
+  \item $a_2 \in \{0,\ldots,9\}$: discrete movement speed from the set
+    $\{0.1, 0.2, \ldots, 1.0\}$ px/ms.
+\end{itemize}
+
+The policy network is a two-layer MLP with hidden dimensions $[64, 64]$ and
+ReLU activations.  Optimisation uses PPO with learning rate $3\times10^{-4}$,
+mini-batch size 1024, and discount factor $\gamma = 0.99$.
+
+\subsubsection*{Reward function}
+
+At episode end the supervisor receives a terminal reward
+
+\begin{equation}
+  R = \bigl(1 - \mathrm{CER}^{0.4}\bigr) - \frac{T / N}{1000},
+  \label{eq:reward}
+\end{equation}
+
+\noindent where CER is the Character Error Rate between the typed and target
+text, $T$ is total episode duration in milliseconds, and $N$ is the number
+of characters in the target text.  The exponent 0.4 compresses the CER term
+so the reward surface remains informative at low error rates.
+
+Within-episode reward shaping provides per-keystroke feedback.  A correct
+tap earns $+0.08$; an incorrect tap or unnecessary backspace earns $-0.08$.
+For backspace actions, the reward depends on how the error was introduced:
+an immediate correction (deleting a character that was just typed
+incorrectly) earns $+0.08$, while a delayed correction (backspacing over a
+character that was typed correctly but is part of a now-diverged prefix)
+earns $+0.04$. % FIXED: added delayed backspace case
+
+For chord attempts, the shaping is extended.  Every valid chord attempt
+(regardless of motor success) earns a bonus of $+0.15$ to provide a direct
+gradient signal linking the \texttt{chord\_available} observation to the
+chord action.  On a successful chord that produces an expansion of length
+$\ell$ characters, the supervisor additionally earns
+$0.08\ell + 0.08(\ell-1)$: one $0.08$ term per character produced plus one
+$0.08$ term per supervisor step saved relative to sequential typing.  This
+makes chording strictly advantageous over sequential typing whenever it
+succeeds.  On a failed chord attempt, each individual key landing is scored
+neutrally if it landed on the correct key ($+0.0$) or penalised $-0.08$ if
+it landed on the wrong key or missed entirely. % FIXED: correct landings on failed chord give 0.0, not +0.08
+
+\subsection{Training Procedure}
+\label{sec:training}
+
+Training the chord supervisor requires it to simultaneously master
+two-thumb typing, proofreading-driven backspacing, and chord execution—a
+challenge that prevents learning from random initialisation.  We therefore
+adopt a two-phase curriculum.
+
+\paragraph{Phase 1 — weight transfer.}
+We initialise the chord supervisor from the weights of the pre-trained
+two-thumb supervisor.  The two networks share the same hidden-layer
+dimensions but differ in the input layer (11 vs.\ 16 observation features)
+and the action output layer (14 vs.\ 15 rows, corresponding to
+$\text{MultiDiscrete}([2,2,10])$ and $\text{MultiDiscrete}([2,3,10])$
+respectively).
+
+For the input layer, we zero-initialise the chord network's weight matrix
+and copy each shared observation key to its correct destination column,
+computed dynamically from the observation-space dictionary (which
+\texttt{gym} 0.21 sorts alphabetically rather than in insertion order).
+New chord-specific observation dimensions are zero-initialised.  The action
+output is extended by inserting a new row at the chord-action position, with
+zero weight and a bias of $-0.5$ to make chord weakly disfavoured at the
+start of phase 2 without blocking exploration entirely.
+
+\paragraph{Phase 2 — chord fine-tuning.}
+Starting from the transferred checkpoint, we train for 5\,M steps with
+chord observations and actions enabled and an entropy coefficient of 0.2.
+Because the transferred type/backspace logits are already large in
+both-fingers-idle states, the chord logit would have near-zero sampling
+probability under the default entropy regularisation.  Raising the entropy
+coefficient forces policy diversity and allows the model to discover chord
+rewards early in training.  The attempt bonus then amplifies these early
+discoveries into a learned preference, producing accelerating chord
+exploration throughout phase 2.
+
+Following phase 2, we run a refinement stage of 3\,M additional steps with
+entropy coefficient reduced to 0.02.  This sharpens the chord policy—
+reducing entropy noise while preserving the learned chord-initiation
+behaviour—without degrading the two-thumb typing and backspacing quality
+acquired during phase 1.
+ \input{04-Results}
+
+We evaluate OmniTypist across four experiments that assess (1) the performance benefit of chording over sequential typing modes, (2) the sensitivity of the model to chord vocabulary size, (3) the effect of chord difficulty assignment on execution quality, and (4) the model's ability to reproduce individual differences in working memory capacity. Each experiment runs 30 episodes per condition on sentences drawn from the same fixed-seed sample; episodes with Character Error Rate (CER) $\geq 0.2$ are discarded as degenerate and resampled, matching the outlier filter used in~\cite{crtypist}. We report six metrics adapted from the CRTypist benchmark: words per minute (WPM), inter-keystroke interval (IKI, ms), CER, number of backspaces, gaze shifts per episode, and proportion of time spent gazing at the keyboard (\% gaze on keyboard).
+
+%% -----------------------------------------------------------------------
+\subsection{Typing Mode Comparison}
+\label{sec:results_mode}
+
+Table~\ref{tab:mode_results} and Figure~\ref{fig:mode} compare three typing strategies: single-finger sequential tapping, two-thumb sequential tapping, and two-thumb chording. All conditions use the same 30 target sentences; single-finger and two-thumb conditions load their respective pre-trained supervisor checkpoints, while chording loads the chord-fine-tuned checkpoint (Section~\ref{sec:training}).
+
+\begin{figure}[t]
+  \includegraphics[width=\linewidth]{fig_mode}
+  \caption{Experiment 1: Typing mode comparison across six metrics. Bars show mean $\pm$ SD; dots are individual episodes ($n=27$--$30$).}
+  \label{fig:mode}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Typing mode comparison. Values are mean $\pm$ SD over 27–30 episodes.
+$\uparrow$ higher is better; $\downarrow$ lower is better.}
+\label{tab:mode_results}
+\small
+\begin{tabular}{lccc}
+\toprule
+Metric & Single-finger & Two-thumb & Chording \\
+\midrule
+WPM $\uparrow$           & $29.4 \pm 6.3$  & $36.8 \pm 11.3$ & $\mathbf{48.0 \pm 10.4}$ \\
+IKI (ms) $\downarrow$    & $369 \pm 27$    & $298 \pm 14$    & $\mathbf{272 \pm 12}$ \\
+CER (\%) $\downarrow$    & $1.1 \pm 2.6$   & $2.9 \pm 4.7$   & $\mathbf{0.8 \pm 2.6}$ \\
+Backspaces $\downarrow$  & $4.6 \pm 4.1$   & $6.9 \pm 8.6$   & $\mathbf{4.2 \pm 3.9}$ \\
+Gaze shifts $\downarrow$ & $4.2 \pm 1.5$   & $5.5 \pm 7.4$   & $\mathbf{0.75 \pm 0.59}$ \\
+Gaze on kbd (\%) $\uparrow$ & $72.0 \pm 4.5$ & $65.0 \pm 7.0$ & $\mathbf{92.6 \pm 5.5}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Chording improves WPM by 30\% over two-thumb ($+11.2$ WPM) and 63\% over single-finger ($+18.6$ WPM), with a commensurate reduction in IKI from 298\,ms to 272\,ms. The most striking finding is the reduction in gaze behavior: the chording agent produces an average of $0.75$ gaze shifts per episode, compared to $5.5$ for two-thumb and $4.2$ for single-finger. Correspondingly, the chording agent spends 92.6\% of time gazing at the keyboard rather than the input field—a substantial increase over two-thumb (65.0\%) and single-finger (72.0\%). This suggests that chording reduces the need for proofreading by increasing motor confidence: the per-character reward structure combined with chord attempt bonuses produces a policy that types more accurately on the first pass, reducing the need to shift gaze to verify output.
+
+Notably, two-thumb sequential typing exhibits higher CER (2.9\%) and more backspaces (6.9) than single-finger. This reflects the increased motor noise from coordinating two independent thumbs: the same pre-trained finger agent is used for both thumbs, but the joint motor system introduces more landing errors under two-thumb assignment. The chording supervisor, trained from the weight-transferred two-thumb checkpoint, partially inherits the two-thumb motor profile but achieves lower CER through its higher proofreading attention.
+
+We note that the chording condition uses a checkpoint trained specifically with chord rewards (Section~\ref{sec:training}), whereas the two-thumb condition uses the plain two-thumb checkpoint. Part of the observed WPM advantage reflects differences in checkpoint quality rather than chording alone. Isolating the chord contribution from policy training effects would require matched training budgets across conditions, which we leave for future work.
+
+%% -----------------------------------------------------------------------
+\subsection{Chord Vocabulary Ablations}
+\label{sec:results_vocab}
+
+\subsubsection{Vocabulary Size}
+\label{sec:results_vocab_size}
+
+We evaluate three vocabulary sizes—2, 5, and 10 chords—covering 2.6\%, 4.1\%, and 7.0\% of test sentence characters respectively (Table~\ref{tab:vocab_results}, Figure~\ref{fig:vocab_size}). All conditions use the chord-fine-tuned supervisor checkpoint; the vocabulary is swapped in-place without retraining, exploiting the property that the supervisor observes only the binary \texttt{chord\_available} signal and scalar \texttt{chord\_recall\_strength}, not the specific expansion.
+
+\begin{figure}[t]
+  \includegraphics[width=\linewidth]{fig_vocab_size}
+  \caption{Experiment 2: Chord vocabulary size ablation. Left: WPM by vocabulary size. Centre: chord fire rate. Right: chord coverage vs.\ WPM per condition ($n=28$ each).}
+  \label{fig:vocab_size}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Chord vocabulary size ablation. Coverage is the greedy fraction of target
+characters reachable by chord expansions. Values are mean $\pm$ SD over 28 episodes.}
+\label{tab:vocab_results}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Condition & WPM $\uparrow$ & Fire rate (\%) & Coverage (\%) & CER (\%) $\downarrow$ \\
+\midrule
+Vocab-2  & $47.1 \pm 6.8$ & $17.9$ & $2.6$ & $0.2$ \\
+Vocab-5  & $48.8 \pm 9.3$ & $25.0$ & $4.1$ & $0.2$ \\
+Vocab-10 & $49.0 \pm 9.6$ & $31.2$ & $7.0$ & $0.1$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+WPM differences across vocabulary sizes are modest: expanding from 2 to 10 chords yields only 1.9 additional WPM. The chord fire rate increases with vocabulary size—17.9\% at 2 chords vs.\ 31.2\% at 10 chords—as more opportunities arise per sentence. However, even the full 10-chord vocabulary covers only 7\% of characters in the test corpus, limiting the potential throughput gain. These results indicate that OmniTypist successfully generalises its chord policy to unseen vocabulary configurations without retraining, but that the marginal benefit of additional chords is constrained by text-level coverage rather than the model's chord execution ability. A vocabulary targeted to the statistical profile of the input domain would be needed to achieve larger throughput gains.
+
+\subsubsection{Difficulty Assignment}
+\label{sec:results_difficulty}
+
+We hold the vocabulary constant at all 10 chords and vary the per-chord difficulty parameter $d$ across four schemes: all chords easy ($d = 0.1$), all medium ($d = 0.5$), graduated (the design values from Table~\ref{tab:chord_vocab}), and all hard ($d = 0.8$). Results are shown in Table~\ref{tab:difficulty_results} and Figure~\ref{fig:difficulty}.
+
+\begin{figure}[t]
+  \includegraphics[width=\linewidth]{fig_difficulty}
+  \caption{Experiment 3: Chord difficulty assignment ablation across WPM, CER, and fire rate. Vocabulary is held constant at 10 chords ($n=28$ per condition).}
+  \label{fig:difficulty}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Chord difficulty assignment ablation. Vocabulary is held constant at 10 chords.
+Values are mean $\pm$ SD over 28 episodes.}
+\label{tab:difficulty_results}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Condition & WPM $\uparrow$ & IKI (ms) & CER (\%) $\downarrow$ & Fire rate (\%) \\
+\midrule
+Uniform-easy   & $50.5 \pm 9.8$  & $271 \pm 9$  & $0.5$ & $33.9$ \\
+Uniform-medium & $49.3 \pm 10.1$ & $270 \pm 11$ & $0.7$ & $38.4$ \\
+Graduated      & $49.5 \pm 9.0$  & $272 \pm 12$ & $0.7$ & $38.4$ \\
+Uniform-hard   & $49.2 \pm 10.8$ & $270 \pm 11$ & $1.4$ & $35.7$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The supervisor is largely robust to difficulty assignment: WPM varies by less than 1.3 WPM across the full range from uniform-easy to uniform-hard. IKI is similarly stable ($270$–$272$\,ms). The only detectable effect is a modest elevation in CER under the uniform-hard condition ($1.4\%$ vs.\ $0.5$–$0.7\%$ for the other schemes), consistent with the faster recall decay producing weaker \texttt{chord\_recall\_strength} signals that occasionally mislead the supervisor into attempting chords with insufficient recall.
+
+These results suggest that, within the tested range, the difficulty values primarily affect the \emph{informational content} of the recall-strength signal rather than overall typing performance. The graduated scheme—assigning higher difficulty to chords with less transparent mnemonics—produces performance nearly identical to the uniform schemes. This is the intended design: difficulty should track genuine cognitive load differences so that the recall-strength signal is a meaningful predictor of chord success, but the trained supervisor policy is not sensitive to the specific values chosen.
+
+%% -----------------------------------------------------------------------
+\subsection{Individual Differences in Working Memory}
+\label{sec:results_individual}
+
+To assess whether OmniTypist can model individual variation in working memory capacity, we sweep the memory decay parameter across three levels—high-memory (decay\,=\,0.1), fitted population average (decay\,=\,0.321), and low-memory (decay\,=\,0.8)—while holding the finger and vision parameters at their fitted values. Results are shown in Table~\ref{tab:individual_results} and Figure~\ref{fig:individual}.
+
+\begin{figure}[t]
+  \includegraphics[width=\linewidth]{fig_individual}
+  \caption{Experiment 4: Individual differences in working memory capacity. WPM, gaze shifts, and time spent gazing at the keyboard vary systematically with the memory decay parameter ($n=28$ per condition).}
+  \label{fig:individual}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Individual differences in working memory capacity. Finger and vision
+parameters are held at fitted values. Values are mean $\pm$ SD over 28 episodes.}
+\label{tab:individual_results}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Condition & WPM $\uparrow$ & IKI (ms) & CER (\%) & Backspaces & Gaze shifts & Gaze on kbd (\%) \\
+\midrule
+High-memory  & $49.5 \pm 12.4$ & $266 \pm 10$ & $0.3$ & $4.1 \pm 5.1$ & $0.14 \pm 0.36$ & $98.1 \pm 2.3$ \\
+Fitted       & $48.8 \pm 11.5$ & $270 \pm 13$ & $1.0$ & $4.0 \pm 3.5$ & $0.68 \pm 0.48$ & $93.0 \pm 4.7$ \\
+Low-memory   & $45.1 \pm 9.5$  & $275 \pm 11$ & $0.8$ & $4.7 \pm 2.9$ & $2.21 \pm 0.96$ & $77.8 \pm 4.7$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The memory parameter produces a graded effect on gaze behavior that mirrors the pattern reported for the base CRTypist model~\cite{crtypist}. High-memory users direct gaze away from the keyboard almost never (0.14 shifts per episode, 98.1\% gaze on keyboard), while low-memory users shift gaze 15$\times$ more frequently (2.21 shifts) and spend substantially more time reading the input field (77.8\% vs.\ 98.1\%). This gradient arises mechanistically: a high memory decay rate causes the working-memory correctness signal to fall faster, prompting the supervisor to proofread more often to recover certainty.
+
+The effect on typing speed is moderate but present: high-memory users type 4.4 WPM faster than low-memory users ($49.5$ vs.\ $45.1$ WPM). Backspaces increase slightly from 4.0 (fitted) to 4.7 (low-memory), consistent with the faster decay occasionally producing over-zealous backspace corrections. Chord fire rate is stable across memory conditions ($33$–$36\%$), indicating that the chord-initiation decision is driven primarily by the \texttt{chord\_available} and \texttt{chord\_recall\_strength} signals rather than the working-memory state. This is the expected behavior: the chord-availability gate is based on physical \texttt{typed\_text}, not working-memory recall, so it is unaffected by memory decay.
+
+Taken together, these results demonstrate that OmniTypist reproduces the individual-differences signature of the base CRTypist model in the chording domain: memory capacity is the primary determinant of gaze patterns, with secondary effects on speed and accuracy.
+
+ \input{05-Discussion}
+\input{06-Conclusion}
+
+
+
+\begin{acks}
+
+\end{acks}
+
+%%
+%% The next two lines define the bibliography style to be used, and
+%% the bibliography file
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{Reference}
+
+%%
+%% If your work has an appendix, this is the place to put it.
+%\appendix
+
+
+\end{document}

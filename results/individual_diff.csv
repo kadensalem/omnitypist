@@ -1,0 +1,85 @@
+condition,target_text,typed_text,char_error_rate,IKI,WPM,num_backspaces,gaze_kbd_ratio,gaze_shift,chord_attempts,chords_fired,fire_rate,chord_coverage
+high-memory,sorry about that,sorry about that,0.0,260.5263157894737,56.25,1,0.984375,0,0,0,0.0,0.0
+high-memory,they are more efficiently pooled,they are more efficiwntly pooled,0.03125,254.8780487804878,57.230769230769226,5,0.9,1,2,1,0.5,0.1875
+high-memory,we are all fragile,we are all fragile,0.0,258.3333333333333,51.64556962025316,3,0.9873417721518988,0,1,1,1.0,0.16666666666666666
+high-memory,we are on the way,we are on the way,0.0,275.0,44.13793103448276,4,0.9885057471264368,0,1,1,1.0,0.17647058823529413
+high-memory,do we need to discuss,do we need to discuss,0.0,275.0,55.17241379310346,1,0.9885057471264368,0,0,0,0.0,0.0
+high-memory,i agreed terms with greg,i agreed terms with greg,0.0,264.2857142857143,58.10526315789474,3,0.9894736842105263,0,1,1,1.0,0.16666666666666666
+high-memory,i will get you one,i will get you one,0.0,273.9130434782609,49.15662650602409,2,0.9879518072289156,0,0,0,0.0,0.0
+high-memory,what is in the plan,what is in the plan,0.0,265.2173913043478,54.68354430379747,2,0.9873417721518988,0,1,1,1.0,0.15789473684210525
+high-memory,i will follow up with him,i will follow up with him,0.0,264.51612903225805,54.85714285714286,4,0.9904761904761905,0,1,1,1.0,0.16
+high-memory,not even close,not even close,0.0,290.0,52.0,0,0.9833333333333333,0,0,0,0.0,0.0
+high-memory,can you resend me the email,can you resend me the email,0.0,256.4516129032258,62.400000000000006,2,0.99,0,1,0,0.0,0.1111111111111111
+high-memory,what is this,what is this,0.0,265.0,38.26086956521739,3,0.9855072463768116,0,0,0,0.0,0.0
+high-memory,a gift isnt necessary,a gift isnt necessary,0.0,259.61538461538464,55.81395348837211,2,0.9883720930232558,0,0,0,0.0,0.0
+high-memory,i sent it to her,i sent it to her,0.0,252.3148148148148,10.843373493975903,15,0.9608433734939759,1,1,1,1.0,0.1875
+high-memory,i will be back friday,i will be back friday,0.0,266.07142857142856,50.00000000000001,3,0.9895833333333334,0,0,0,0.0,0.0
+high-memory,i can return earlier,i can return earlier,0.0,264.0,53.64705882352942,2,0.9882352941176471,0,0,0,0.0,0.0
+high-memory,i would like to attend if so,i would like to attend if so,0.0,271.2121212121212,55.86206896551724,1,0.9913793103448276,0,0,0,0.0,0.0
+high-memory,has anyone else heard anything,has anyone else heard anything,0.0,267.4418604651163,47.34693877551021,5,0.9931972789115646,0,0,0,0.0,0.0
+high-memory,what is going on,what is going on,0.0,269.64285714285717,36.73469387755102,5,0.9897959183673469,0,0,0,0.0,0.0
+high-memory,we will keep you posted,we will keep you posted,0.0,254.6875,51.764705882352956,3,0.9901960784313726,0,0,0,0.0,0.0
+high-memory,please revise accordingly,please revise accordingly,0.0,259.6774193548387,56.47058823529412,2,0.9901960784313726,0,0,0,0.0,0.0
+high-memory,can you help get this cleared up,can you help get this cleared up,0.0,271.9512195121951,51.666666666666664,4,0.9930555555555556,0,0,0,0.0,0.0
+high-memory,are you getting all the information,are you getting all the informarion,0.02857142873108387,248.52941176470588,78.46153846153847,2,0.9903846153846154,0,4,3,0.75,0.37142857142857144
+high-memory,need to watch closely,need to watch closely,0.0,254.6875,47.05882352941177,4,0.9901960784313726,0,0,0,0.0,0.0
+high-memory,is this the only time available,is this the only time available,0.0,261.3636363636364,49.65517241379311,6,0.9103448275862069,1,1,1,1.0,0.0967741935483871
+high-memory,we dont seem to have any positive income,we dont seem to have any positive incom,0.02500000037252903,281.60919540229884,28.589341692789972,26,0.9592476489028213,1,2,2,1.0,0.175
+high-memory,is it over,is it over,0.0,273.8095238095238,28.42105263157895,5,0.9868421052631579,0,0,0,0.0,0.0
+high-memory,not even in yet,not even in yet,0.0,277.77777777777777,50.14925373134328,1,0.9850746268656716,0,0,0,0.0,0.0
+fitted-memory,sorry about that,sorry about that,0.0,278.2608695652174,42.35294117647059,3,0.9882352941176471,0,0,0,0.0,0.0
+fitted-memory,they are more efficiently pooled,they are more efficiently pooled,0.0,254.41176470588235,68.8888888888889,2,0.8796296296296297,1,2,2,1.0,0.1875
+fitted-memory,we are all fragile,we are all fragil,0.0555555559694767,268.1818181818182,49.870129870129865,3,0.987012987012987,0,1,1,1.0,0.16666666666666666
+fitted-memory,we are on the way,we are on the way,0.0,270.45454545454544,49.23076923076924,3,0.8333333333333334,1,1,1,1.0,0.17647058823529413
+fitted-memory,do we need to discuss,do we need to discuss,0.0,284.09090909090907,57.142857142857146,0,0.9285714285714286,1,0,0,0.0,0.0
+fitted-memory,i agreed terms with greg,i agreed terms with greg,0.0,256.57894736842104,45.24590163934427,8,0.8934426229508197,1,1,1,1.0,0.16666666666666666
+fitted-memory,i will get you one,i will get you one,0.0,277.5,55.13513513513514,0,0.9864864864864865,0,0,0,0.0,0.0
+fitted-memory,what is in the plan,what is in rhe plan,0.05263157933950424,284.7826086956522,49.09090909090909,2,0.9886363636363636,0,1,0,0.0,0.15789473684210525
+fitted-memory,i will follow up with him,i will follow up with hi,0.03999999910593033,281.0344827586207,51.11111111111111,3,0.8796296296296297,1,1,1,1.0,0.16
+fitted-memory,not even close,not even close,0.0,264.70588235294116,52.881355932203384,1,0.9830508474576272,0,0,0,0.0,0.0
+fitted-memory,can you resend me the email,can you resend me the ema,0.07407407462596893,259.2105263157895,46.45161290322581,6,0.8951612903225806,1,1,1,1.0,0.1111111111111111
+fitted-memory,what is this,what is this,0.0,260.37735849056605,15.260115606936417,11,0.9248554913294798,1,0,0,0.0,0.0
+fitted-memory,a gift isnt necessary,a gift isnt necessary,0.0,258.0,58.536585365853675,1,0.8780487804878049,1,0,0,0.0,0.0
+fitted-memory,i sent it to her,i sent it to he,0.0625,270.8333333333333,39.529411764705884,5,0.9882352941176471,0,1,1,1.0,0.1875
+fitted-memory,i will be back friday,i will be back friday,0.0,266.0,55.81395348837211,1,0.9767441860465116,1,0,0,0.0,0.0
+fitted-memory,i can return earlier,i can return earlier,0.0,274.0,50.66666666666667,2,0.9333333333333333,1,0,0,0.0,0.0
+fitted-memory,i would like to attend if so,i would like to attend if so,0.0,276.53061224489795,36.81818181818181,10,0.9261363636363636,1,0,0,0.0,0.0
+fitted-memory,has anyone else heard anything,has anyone else heard anything,0.0,267.85714285714283,48.333333333333336,5,0.9097222222222222,1,0,0,0.0,0.0
+fitted-memory,what is going on,what is going on,0.0,262.22222222222223,24.161073825503355,14,0.912751677852349,1,0,0,0.0,0.0
+fitted-memory,we will keep you posted,we will keep you posted,0.0,275.80645161290323,47.142857142857146,3,0.8839285714285714,1,0,0,0.0,0.0
+fitted-memory,please revise accordingly,please revise accordingly,0.0,265.0,56.47058823529412,2,0.8725490196078431,1,0,0,0.0,0.0
+fitted-memory,can you help get this cleared up,can you help get this cleared up,0.0,269.04761904761904,51.3103448275862,4,0.9103448275862069,1,0,0,0.0,0.0
+fitted-memory,are you getting all the information,are you getting all the information,0.0,248.91304347826087,58.28571428571428,9,0.9071428571428571,1,4,3,0.75,0.37142857142857144
+fitted-memory,need to watch closely,need to watch closely,0.0,256.25,61.53846153846155,1,0.9871794871794872,0,0,0,0.0,0.0
+fitted-memory,is this the only time available,is this the only time available,0.0,264.4736842105263,56.25,4,0.8984375,1,1,1,1.0,0.0967741935483871
+fitted-memory,we dont seem to have any positive income,we dont seem to have any positive income,0.0,265.9574468085106,58.86792452830189,5,0.9182389937106918,1,2,2,1.0,0.175
+fitted-memory,is it over,is it over,0.0,318.75,29.589041095890412,2,0.9863013698630136,0,0,0,0.0,0.0
+fitted-memory,not even in yet,not even in yet,0.0,280.55555555555554,49.41176470588236,1,0.9852941176470589,0,0,0,0.0,0.0
+low-memory,sorry about that,sorry about that,0.0,281.57894736842104,50.00000000000001,1,0.8194444444444444,1,0,0,0.0,0.0
+low-memory,they are more efficiently pooled,they are more efficiently pooled,0.0,262.9032258064516,71.53846153846153,1,0.7596153846153846,2,2,2,1.0,0.1875
+low-memory,we are all fragile,we are all fragile,0.0,268.42105263157896,60.895522388059696,1,0.746268656716418,2,1,1,1.0,0.16666666666666666
+low-memory,we are on the way,we are on the way,0.0,266.6666666666667,46.265060240963855,4,0.6987951807228916,2,1,1,1.0,0.17647058823529413
+low-memory,do we need to discuss,do we need to discuss,0.0,272.22222222222223,37.795275590551185,7,0.7559055118110236,3,0,0,0.0,0.0
+low-memory,i agreed terms with greg,i agreed terms with greg,0.0,266.1290322580645,52.07547169811321,4,0.7641509433962265,2,1,1,1.0,0.16666666666666666
+low-memory,i will get you one,i will get you one,0.0,267.56756756756755,32.125984251968504,8,0.7086614173228346,3,0,0,0.0,0.0
+low-memory,what is in the plan,what is in the plan,0.0,269.2307692307692,47.472527472527474,3,0.7252747252747253,2,1,1,1.0,0.15789473684210525
+low-memory,i will follow up with him,i will follow up with him,0.0,285.5263157894737,40.0,7,0.8055555555555556,3,1,1,1.0,0.16
+low-memory,not even close,not even close,0.0,283.3333333333333,39.0,3,0.8375,1,0,0,0.0,0.0
+low-memory,can you resend me the email,can you resend me the email,0.0,265.0,61.176470588235304,2,0.8235294117647058,2,1,1,1.0,0.1111111111111111
+low-memory,what is this,what is this,0.0,292.85714285714283,31.42857142857143,4,0.8452380952380952,1,0,0,0.0,0.0
+low-memory,a gift isnt necessary,a gift isnt necessary,0.0,264.4736842105263,37.5,8,0.8046875,2,0,0,0.0,0.0
+low-memory,i sent it to her,i sent it to her,0.0,295.23809523809524,42.35294117647059,3,0.8470588235294118,1,1,1,1.0,0.1875
+low-memory,i will be back friday,i will be back friday,0.0,288.6363636363636,55.81395348837211,0,0.8488372093023255,1,0,0,0.0,0.0
+low-memory,i can return earlier,i can return earlier,0.0,261.2903225806452,44.271844660194176,5,0.6990291262135923,3,0,0,0.0,0.0
+low-memory,i would like to attend if so,i would like to attend if so,0.0,274.4186046511628,42.35294117647059,6,0.7581699346405228,3,0,0,0.0,0.0
+low-memory,has anyone else heard anything,has anyone else heard anything,0.0,271.42857142857144,40.70175438596491,8,0.783625730994152,3,0,0,0.0,0.0
+low-memory,what is going on,what is goingv,0.1875,305.2631578947368,38.518518518518526,2,0.8395061728395061,1,0,0,0.0,0.0
+low-memory,we will keep you posted,we will keep you posted,0.0,281.0344827586207,48.888888888888886,2,0.7685185185185185,2,0,0,0.0,0.0
+low-memory,please revise accordingly,please revise accordingly,0.0,273.1707317073171,39.724137931034484,7,0.7586206896551724,3,0,0,0.0,0.0
+low-memory,can you help get this cleared up,can you help get this cleared up,0.0,285.59322033898303,33.51351351351351,11,0.7792792792792793,4,0,0,0.0,0.0
+low-memory,are you getting all the information,are you getting all the informayion,0.02857142873108387,267.85714285714283,56.666666666666664,6,0.7638888888888888,3,4,2,0.5,0.37142857142857144
+low-memory,need to watch closely,need to watch closely,0.0,266.2162162162162,38.095238095238095,7,0.7063492063492064,3,0,0,0.0,0.0
+low-memory,is this the only time available,is this the only time available,0.0,269.3181818181818,47.36842105263159,6,0.756578947368421,3,1,1,1.0,0.0967741935483871
+low-memory,we dont seem to have any positive income,we dont seem to have any positive income,0.0,272.41379310344826,46.108374384236456,10,0.7586206896551724,4,2,1,0.5,0.175
+low-memory,is it over,is it over,0.0,264.70588235294116,36.61016949152542,3,0.7796610169491526,1,0,0,0.0,0.0
+low-memory,not even in yet,not even in yet,0.0,265.90909090909093,44.21052631578948,3,0.8289473684210527,1,0,0,0.0,0.0
